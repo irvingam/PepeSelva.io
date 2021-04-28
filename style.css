@@ -4,3 +4,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@500;700&display=swap');
+
+/* Custom Styles */
+
+:root {
+    --ff-primary: 'Ubuntu', sans-serif;
+    --ff-secondary: 'Ubuntu Condensed', sans-serif;
+
+    --fw-bold: 500;
+    --fw-normal: 400;
+
+    --clr-dark: rgba(0, 0, 0);
+    --clr-light: rgba(255, 255, 255);
+    --clr-one: rgba(192,0,0);
+    --clr-two: rgba(106,106,106);
+    --clr-three: ;
+    --clr-bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
+
+}
+
+/* General Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Class Styles */
