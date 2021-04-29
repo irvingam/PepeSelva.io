@@ -20,8 +20,8 @@
 
     --clr-dark: rgba(0, 0, 0);
     --clr-light: rgba(255, 255, 255);
-    --clr-one: rgba(192,0,0);
-    --clr-two: rgba(106,106,106);
+    --clr-one: rgba(192, 0, 0);
+    --clr-two: rgba(106, 106, 106);
     --clr-three: ;
     --clr-bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
 
@@ -33,4 +33,25 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+}
+
+h1 {}
+h2 {}
+h3 {}
+p {}
+
+a {
+    text-decoration: none;
+    color: var(--clr-light);
+}
+
 /* Class Styles */
+
+/* Home Page Styles */
+
+.nav-bar {
+    background-color: var(--clr-two);
+    padding: 10px 15px 10px 15px;
+}
